@@ -1,0 +1,28 @@
+{
+  "name": "shopee-bot",
+  "version": "0.0.1",
+  "description": "Full automatic for shopee",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b tsconfig.json",
+    "lint": "eslint . --ignore-path .gitignore --ext .ts --cache --cache-location .cache/eslintcache",
+    "lint:fix": "eslint . --ignore-path .gitignore --ext .ts --fix --cache --cache-location .cache/eslintcache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bot",
+    "Shopee"
+  ],
+  "author": "Kry9toN",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^8.0.0",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.3",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "eslint": "^7.21.0"
+  }
+}
