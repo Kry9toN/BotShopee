@@ -9,7 +9,6 @@
 		"skipLibCheck": true,
 		"noEmitHelpers": true,
 		"importHelpers": true,
-                "esModuleInterop": true,
         "incremental": true,
         "resolveJsonModule": true,
         "strict": true
