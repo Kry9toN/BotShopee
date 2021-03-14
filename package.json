@@ -7,15 +7,14 @@
     "start": "node start.js",
     "compile": "tsc -b tsconfig.json",
     "lint": "eslint . --ignore-path .gitignore --ext .ts --cache --cache-location .cache/eslintcache",
-    "lint:fix": "eslint . --ignore-path .gitignore --ext .ts --fix --cache --cache-location .cache/eslintcache",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:fix": "eslint . --ignore-path .gitignore --ext .ts --fix --cache --cache-location .cache/eslintcache"
   },
   "keywords": [
     "Bot",
     "Shopee"
   ],
   "author": "Kry9toN",
-  "license": "ISC",
+  "license": "LICENSE.md",
   "dependencies": {
     "cfonts": "^2.9.1",
     "chalk": "^4.1.0",
